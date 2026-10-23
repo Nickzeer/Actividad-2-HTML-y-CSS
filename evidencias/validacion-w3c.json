@@ -1,0 +1,38 @@
+[
+  {
+    "archivo": "index.html",
+    "http": 200,
+    "version": "26.10.18",
+    "messages": []
+  },
+  {
+    "archivo": "reportar.html",
+    "http": 200,
+    "version": "26.10.18",
+    "messages": []
+  },
+  {
+    "archivo": "rescates.html",
+    "http": 200,
+    "version": "26.10.18",
+    "messages": []
+  },
+  {
+    "archivo": "version-css/index.html",
+    "http": 200,
+    "version": "26.10.18",
+    "messages": []
+  },
+  {
+    "archivo": "version-css/reportar.html",
+    "http": 200,
+    "version": "26.10.18",
+    "messages": []
+  },
+  {
+    "archivo": "version-css/rescates.html",
+    "http": 200,
+    "version": "26.10.18",
+    "messages": []
+  }
+]

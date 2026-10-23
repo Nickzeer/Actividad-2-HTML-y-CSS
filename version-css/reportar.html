@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reportar rescate - Huella Segura</title>
+    <link rel="stylesheet" href="../assets/css/estilos.css">
+</head>
+<body>
+    <!-- Encabezado y menú común de las tres páginas -->
+    <header>
+        <p><img src="../assets/img/logo.svg" alt="Logo de Huella Segura" width="40" height="40"> <strong>Huella Segura</strong></p>
+        <nav aria-label="Menú principal">
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="index.html#nosotros">Nosotros</a></li>
+                <li><a href="index.html#servicios">Servicios</a></li>
+                <li><a href="index.html#contacto">Contacto</a></li>
+                <li><a href="reportar.html" aria-current="page">Reportar rescate</a></li>
+                <li><a href="rescates.html">Rescates</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Contenido de esta página -->
+    <main>
+        <h1>Reportar un rescate</h1>
+        <p>Completa los datos del animal encontrado. Los campos son obligatorios.</p>
+
+        <section>
+            <h2>Datos del rescate</h2>
+            <p>Este formulario es una práctica: los datos enviados no se guardan.</p>
+            <form action="rescates.html" method="get">
+                <p>
+                    <label for="nombre">Nombre provisional o título del caso:</label><br>
+                    <input type="text" id="nombre" name="nombre" minlength="3" maxlength="80" required>
+                </p>
+                <p>
+                    <label for="categoria">Categoría:</label><br>
+                    <select id="categoria" name="categoria" required>
+                        <option value="">Selecciona una categoría</option>
+                        <option value="perros">Perros</option>
+                        <option value="gatos">Gatos</option>
+                        <option value="fauna-silvestre">Fauna Silvestre</option>
+                    </select>
+                </p>
+                <fieldset>
+                    <legend>Urgencia médica</legend>
+                    <input type="radio" id="alta" name="urgencia" value="alta" required>
+                    <label for="alta">Alta</label>
+                    <input type="radio" id="media" name="urgencia" value="media">
+                    <label for="media">Media</label>
+                    <input type="radio" id="baja" name="urgencia" value="baja">
+                    <label for="baja">Baja</label>
+                </fieldset>
+                <p>
+                    <label for="descripcion">Descripción del estado del animal:</label><br>
+                    <textarea id="descripcion" name="descripcion" rows="5" cols="40" minlength="20" maxlength="1000" required></textarea><br>
+                    <small>Escribe entre 20 y 1000 caracteres.</small>
+                </p>
+                <p>
+                    <button type="submit">Enviar reporte</button>
+                    <button type="reset">Limpiar</button>
+                </p>
+            </form>
+        </section>
+
+        <section>
+            <h2>Ayuda para completar el reporte</h2>
+            <article>
+                <h3>¿Qué información escribir?</h3>
+                <p>Escribe un nombre provisional, selecciona la categoría y la urgencia, y describe cómo encontraste al animal.</p>
+                <p>Después del envío se abre el <a href="rescates.html">listado de casos de ejemplo</a>.</p>
+            </article>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2026 Huella Segura - Proyecto académico de la Universidad Técnica de Manabí.</p>
+        <p><a href="../index.html">Ver versión sin CSS</a></p>
+    </footer>
+</body>
+</html>

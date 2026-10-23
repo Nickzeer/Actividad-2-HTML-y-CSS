@@ -1,0 +1,104 @@
+/* Estilos generales */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #222;
+    background-color: white;
+}
+
+/* Encabezado y pie de página */
+header, footer {
+    padding: 15px;
+    text-align: center;
+    background-color: #eeeeee;
+}
+
+header img {
+    vertical-align: middle;
+    margin-right: 8px;
+}
+
+/* Menú de navegación */
+nav ul {
+    padding: 0;
+    list-style: none;
+}
+
+nav li {
+    display: inline-block;
+    margin: 5px 10px;
+}
+
+/* Contenido */
+main {
+    max-width: 850px;
+    margin: 20px auto;
+    padding: 0 15px;
+}
+
+h1 {
+    font-size: 26px;
+}
+
+h2 {
+    font-size: 22px;
+}
+
+h3 {
+    font-size: 18px;
+}
+
+section {
+    margin-bottom: 25px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Formulario */
+input[type="text"], select, textarea {
+    width: 100%;
+    max-width: 420px;
+    box-sizing: border-box;
+    margin-top: 5px;
+    padding: 6px;
+    font: inherit;
+}
+
+fieldset {
+    max-width: 400px;
+    padding: 10px;
+}
+
+button {
+    padding: 5px 12px;
+    margin-right: 8px;
+}
+
+/* Tabla de rescates */
+.tabla {
+    overflow-x: auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+caption {
+    margin-bottom: 10px;
+}
+
+th, td {
+    border: 1px solid #aaaaaa;
+    padding: 8px;
+    text-align: left;
+}
+
+thead {
+    background-color: #eeeeee;
+}
