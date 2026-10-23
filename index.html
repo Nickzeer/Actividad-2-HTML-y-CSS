@@ -1,35 +1,71 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Huella Segura: prototipo académico para registrar y consultar casos de rescate animal en Manabí.">
-  <title>Inicio | Huella Segura</title>
-  <link rel="icon" href="assets/img/logo.svg" type="image/svg+xml">
-  <script src="assets/js/rescate.js" defer></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicio - Huella Segura</title>
 </head>
-<body data-pagina="index">
-<a class="saltar" href="#contenido">Saltar al contenido</a>
-<header class="cabecera">
-  <a class="marca" href="index.html"><img src="assets/img/logo.svg" alt="Huella Segura, inicio" width="52" height="52"><span><strong>Huella Segura</strong><small>Refugio y rescate animal</small></span></a>
-  <nav aria-label="Navegación principal"><ul>
-    <li><a href="index.html" aria-current="page">Inicio</a></li><li><a href="reportar.html">Reportar rescate</a></li><li><a href="rescates.html">Rescates</a></li>
-    <li><a href="index.html#nosotros">Nosotros</a></li><li><a href="index.html#servicios">Servicios</a></li><li><a href="index.html#contacto">Contacto</a></li>
-  </ul></nav>
-</header>
-<main id="contenido">
-  <section class="hero" aria-labelledby="bienvenida">
-    <div><p class="ceja">CUIDAMOS JUNTOS · MANABÍ, ECUADOR</p><h1 id="bienvenida">Una nueva oportunidad<br>empieza contigo.</h1><p class="intro">Bienvenido al refugio. Registra un rescate, consulta su estado y acompaña cada pequeño avance.</p><div class="acciones"><a class="boton" href="reportar.html">+ Reportar un rescate</a><a class="enlace" href="rescates.html">Ver todos los casos →</a></div></div>
-    <figure><img src="assets/img/refugio.svg" width="480" height="250" alt="Ilustración de un perro y un gato junto a una casa de acogida"><figcaption>Un lugar seguro para volver a empezar.</figcaption></figure>
-  </section>
-  <section aria-labelledby="resumen"><div class="titulo-seccion"><div><p class="ceja">EL REFUGIO DE UN VISTAZO</p><h2 id="resumen">Cada caso cuenta</h2></div><p class="dato-demo">Datos de demostración</p></div>
-    <div class="estadisticas"><article><p>Casos registrados</p><h3><span data-total>3</span> <small>rescates</small></h3><p>Historias que ya tienen seguimiento.</p></article><article><p>En cuidado</p><h3><span data-activos>2</span> <small>animales</small></h3><p>Casos en atención u observación.</p></article><article><p>Prioridad alta</p><h3><span data-urgentes>1</span> <small>caso(s)</small></h3><p>Registros que necesitan atención prioritaria.</p></article></div>
-  </section>
-  <section aria-labelledby="recientes"><div class="titulo-seccion"><div><p class="ceja">SEGUIMIENTO</p><h2 id="recientes">Últimos rescates</h2></div><a href="rescates.html">Consultar listado →</a></div><div class="casos-recientes" data-recientes><article><p class="ceja">R-2026-003 · Gatos</p><h3>Luna</h3><p><span class="etiqueta alta">Prioridad alta</span> <span class="estado">En atención</span></p><p>Portoviejo, sector El Florón</p><a href="rescates.html?caso=R-2026-003">Ver ficha →</a></article><article><p class="ceja">R-2026-002 · Perros</p><h3>Toby</h3><p><span class="etiqueta media">Prioridad media</span> <span class="estado">En observación</span></p><p>Manta, barrio Los Esteros</p><a href="rescates.html?caso=R-2026-002">Ver ficha →</a></article><article><p class="ceja">R-2026-001 · Fauna Silvestre</p><h3>Alba</h3><p><span class="etiqueta baja">Prioridad baja</span> <span class="estado">Derivado</span></p><p>Montecristi, zona rural</p><a href="rescates.html?caso=R-2026-001">Ver ficha →</a></article></div></section>
-  <section id="nosotros" class="banda" aria-labelledby="titulo-nosotros"><div><p class="ceja">NUESTRA RAZÓN DE SER</p><h2 id="titulo-nosotros">Pequeños cuidados.<br>Grandes cambios.</h2></div><article><h3>Un refugio, muchas segundas oportunidades</h3><p>Huella Segura es un refugio ficticio de Manabí creado para este proyecto académico. Su sistema organiza los reportes de animales rescatados y facilita el seguimiento de cada caso.</p><p>La empatía es el primer paso. Un registro claro ayuda a que el equipo sepa dónde, cuándo y cómo intervenir.</p></article></section>
-  <section id="servicios" aria-labelledby="titulo-servicios"><p class="ceja">ASÍ ACOMPAÑAMOS CADA HISTORIA</p><h2 id="titulo-servicios">Nuestros servicios</h2><div class="servicios"><article><span class="numero">01</span><h3>Registro de rescates</h3><p>Recopilamos la ubicación, categoría y condición inicial del animal.</p></article><article><span class="numero">02</span><h3>Seguimiento del caso</h3><p>Organizamos la prioridad y el estado de cada ingreso al refugio.</p></article><article><span class="numero">03</span><h3>Acogida responsable</h3><p>Promovemos el cuidado temporal y la coordinación con personal autorizado.</p></article></div></section>
-  <section id="contacto" class="contacto" aria-labelledby="titulo-contacto"><div><p class="ceja">ESTAMOS CERCA</p><h2 id="titulo-contacto">Hablemos de una nueva oportunidad.</h2><p>Manabí, Ecuador · Datos de contacto ilustrativos.</p></div><article><h3>Contacto del refugio</h3><address><a href="mailto:contacto@huellasegura.example">contacto@huellasegura.example</a><br>Lunes a viernes · 08:00 a 17:00</address><p>Si deseas registrar un caso, utiliza el <a href="reportar.html">formulario de rescate</a>.</p></article></section>
-</main>
-<footer class="pie"><div><strong>Huella Segura</strong><p>Cada vida merece una segunda oportunidad.</p></div><div><p>© 2026 · Prototipo académico · Universidad Técnica de Manabí</p><a href="version-css/index.html">Ver versión con CSS</a></div></footer>
+<body>
+    <!-- Encabezado y menú común de las tres páginas -->
+    <header>
+        <p><img src="assets/img/logo.svg" alt="Logo de Huella Segura" width="40" height="40"> <strong>Huella Segura</strong></p>
+        <nav aria-label="Menú principal">
+            <ul>
+                <li><a href="index.html" aria-current="page">Inicio</a></li>
+                <li><a href="index.html#nosotros">Nosotros</a></li>
+                <li><a href="index.html#servicios">Servicios</a></li>
+                <li><a href="index.html#contacto">Contacto</a></li>
+                <li><a href="reportar.html">Reportar rescate</a></li>
+                <li><a href="rescates.html">Rescates</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Contenido de esta página -->
+    <main>
+        <h1>Bienvenido a Huella Segura</h1>
+        <p>Este sistema presenta los casos de animales rescatados por nuestro refugio.</p>
+        <p>Para informar sobre un animal, completa el <a href="reportar.html">formulario de reporte</a>.</p>
+        <img src="assets/img/refugio.svg" alt="Un perro y un gato junto a una casa de acogida" width="360" height="188">
+
+        <section>
+            <h2>Resumen del refugio</h2>
+            <article>
+                <h3>Situación actual</h3>
+                <ul>
+                    <li>Animales registrados: 3.</li>
+                    <li>Animales en atención u observación: 2.</li>
+                    <li>Casos de urgencia alta: 1.</li>
+                </ul>
+                <p>Estos datos corresponden a los <a href="rescates.html">casos de ejemplo</a>.</p>
+            </article>
+        </section>
+
+        <section id="nosotros">
+            <h2>Nosotros</h2>
+            <p>Huella Segura es un refugio ficticio de Manabí, creado para esta actividad académica. Su objetivo es apoyar el rescate y el cuidado de los animales.</p>
+        </section>
+
+        <section id="servicios">
+            <h2>Servicios</h2>
+            <ul>
+                <li>Recepción de reportes de rescate.</li>
+                <li>Seguimiento de los casos.</li>
+                <li>Apoyo para la acogida de animales.</li>
+            </ul>
+        </section>
+
+        <section id="contacto">
+            <h2>Contacto</h2>
+            <p>Ubicación: Manabí, Ecuador.</p>
+            <p>Correo de ejemplo: <a href="mailto:contacto@huellasegura.example">contacto@huellasegura.example</a>.</p>
+            <p>Horario: lunes a viernes, de 08:00 a 17:00.</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2026 Huella Segura - Proyecto académico de la Universidad Técnica de Manabí.</p>
+        <p><a href="version-css/index.html">Ver versión con CSS</a></p>
+    </footer>
 </body>
 </html>

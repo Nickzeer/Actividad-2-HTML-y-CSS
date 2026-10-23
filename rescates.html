@@ -1,33 +1,81 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Huella Segura: prototipo académico para registrar y consultar casos de rescate animal en Manabí.">
-  <title>Rescates registrados | Huella Segura</title>
-  <link rel="icon" href="assets/img/logo.svg" type="image/svg+xml">
-  <script src="assets/js/rescate.js" defer></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rescates registrados - Huella Segura</title>
 </head>
-<body data-pagina="rescates">
-<a class="saltar" href="#contenido">Saltar al contenido</a>
-<header class="cabecera">
-  <a class="marca" href="index.html"><img src="assets/img/logo.svg" alt="Huella Segura, inicio" width="52" height="52"><span><strong>Huella Segura</strong><small>Refugio y rescate animal</small></span></a>
-  <nav aria-label="Navegación principal"><ul>
-    <li><a href="index.html">Inicio</a></li><li><a href="reportar.html">Reportar rescate</a></li><li><a href="rescates.html" aria-current="page">Rescates</a></li>
-    <li><a href="index.html#nosotros">Nosotros</a></li><li><a href="index.html#servicios">Servicios</a></li><li><a href="index.html#contacto">Contacto</a></li>
-  </ul></nav>
-</header>
-<main id="contenido">
-  <section class="encabezado-pagina" aria-labelledby="titulo-listado"><p class="ceja">HISTORIAS CON SEGUIMIENTO</p><div class="titulo-seccion"><div><h1 id="titulo-listado">Rescates registrados</h1><p class="intro">Cada registro es el primer paso hacia una nueva oportunidad.</p></div><a class="boton" href="reportar.html">+ Nuevo rescate</a></div></section>
-  <section class="panel listado" aria-labelledby="titulo-casos"><div class="titulo-seccion"><div><h2 id="titulo-casos">Todos los casos</h2><p id="cantidad-casos" role="status" aria-live="polite">3 casos registrados</p></div><p class="dato-demo">Ejemplos + tus registros locales</p></div>
-    <form id="filtros" class="filtros" action="rescates.html" method="get" role="search" aria-label="Filtrar rescates"><p class="campo"><label for="buscar">Buscar caso</label><input id="buscar" type="search" name="buscar" placeholder="Nombre, código o ubicación"></p><p class="campo"><label for="filtro-categoria">Categoría</label><select id="filtro-categoria" name="categoria"><option value="">Todas las categorías</option><option>Perros</option><option>Gatos</option><option>Fauna Silvestre</option></select></p><p class="campo"><label for="filtro-urgencia">Urgencia</label><select id="filtro-urgencia" name="urgencia"><option value="">Todas las prioridades</option><option>Alta</option><option>Media</option><option>Baja</option></select></p><button type="submit" class="secundario">Filtrar</button><button type="reset" class="texto-boton">Restablecer</button></form>
-    <p id="aviso-almacenamiento" role="status" hidden></p>
-    <div class="tabla-contenedor" role="region" aria-label="Tabla de rescates, desplazable horizontalmente" tabindex="0"><table><caption>Registro de animales rescatados y su prioridad de atención</caption><thead><tr><th scope="col">Código</th><th scope="col">Nombre / caso</th><th scope="col">Categoría</th><th scope="col">Urgencia</th><th scope="col">Fecha</th><th scope="col">Estado</th><th scope="col">Detalle</th></tr></thead><tbody id="cuerpo-casos"><tr><th scope="row">R-2026-003</th><td><strong>Luna</strong></td><td>Gatos</td><td><span class="etiqueta alta">Alta</span></td><td><time datetime="2026-10-23">23/10/2026</time></td><td>En atención</td><td><button type="button" class="boton-ficha" data-caso="R-2026-003">Ver ficha<span class="solo-lectores"> de Luna</span></button></td></tr><tr><th scope="row">R-2026-002</th><td><strong>Toby</strong></td><td>Perros</td><td><span class="etiqueta media">Media</span></td><td><time datetime="2026-10-22">22/10/2026</time></td><td>En observación</td><td><button type="button" class="boton-ficha" data-caso="R-2026-002">Ver ficha<span class="solo-lectores"> de Toby</span></button></td></tr><tr><th scope="row">R-2026-001</th><td><strong>Alba</strong></td><td>Fauna Silvestre</td><td><span class="etiqueta baja">Baja</span></td><td><time datetime="2026-10-21">21/10/2026</time></td><td>Derivado</td><td><button type="button" class="boton-ficha" data-caso="R-2026-001">Ver ficha<span class="solo-lectores"> de Alba</span></button></td></tr></tbody></table></div>
-    <noscript><p>Activa JavaScript para buscar, abrir fichas y consultar nuevos registros. La tabla muestra tres casos de ejemplo.</p></noscript>
-  </section>
-  <section class="nota-listado" aria-labelledby="prioridades"><h2 id="prioridades">Una prioridad, un siguiente paso</h2><article><h3>Interpretación del registro</h3><p><span class="etiqueta alta">Alta</span> Atención prioritaria · <span class="etiqueta media">Media</span> Valoración pendiente · <span class="etiqueta baja">Baja</span> Condición estable.</p><p>Las prioridades del prototipo son orientativas. Los casos de ejemplo son ficticios y los nuevos registros permanecen en este navegador.</p></article></section>
-  <dialog id="ficha-caso" aria-labelledby="titulo-ficha"><article><p class="ceja" id="codigo-ficha"></p><h2 id="titulo-ficha">Ficha del rescate</h2><dl id="datos-ficha"></dl><h3>Descripción del hallazgo</h3><p id="descripcion-ficha"></p><form method="dialog"><button class="boton" type="submit">Cerrar ficha</button></form></article></dialog>
-</main>
-<footer class="pie"><div><strong>Huella Segura</strong><p>Cada vida merece una segunda oportunidad.</p></div><div><p>© 2026 · Prototipo académico · Universidad Técnica de Manabí</p><a href="version-css/index.html">Ver versión con CSS</a></div></footer>
+<body>
+    <!-- Encabezado y menú común de las tres páginas -->
+    <header>
+        <p><img src="assets/img/logo.svg" alt="Logo de Huella Segura" width="40" height="40"> <strong>Huella Segura</strong></p>
+        <nav aria-label="Menú principal">
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="index.html#nosotros">Nosotros</a></li>
+                <li><a href="index.html#servicios">Servicios</a></li>
+                <li><a href="index.html#contacto">Contacto</a></li>
+                <li><a href="reportar.html">Reportar rescate</a></li>
+                <li><a href="rescates.html" aria-current="page">Rescates</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Contenido de esta página -->
+    <main>
+        <h1>Rescates registrados</h1>
+        <p>Listado de animales del refugio. Todos los casos son ficticios.</p>
+
+        <section>
+            <h2>Casos de ejemplo</h2>
+            <div class="tabla">
+                <table>
+                    <caption>Registro de animales rescatados</caption>
+                    <thead>
+                        <tr>
+                            <th scope="col">Código</th>
+                            <th scope="col">Nombre</th>
+                            <th scope="col">Categoría</th>
+                            <th scope="col">Urgencia</th>
+                            <th scope="col">Estado</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th scope="row">001</th>
+                            <td>Luna</td>
+                            <td>Gatos</td>
+                            <td>Alta</td>
+                            <td>En atención</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">002</th>
+                            <td>Toby</td>
+                            <td>Perros</td>
+                            <td>Media</td>
+                            <td>En observación</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">003</th>
+                            <td>Alba</td>
+                            <td>Fauna Silvestre</td>
+                            <td>Baja</td>
+                            <td>Derivado</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <article>
+                <h3>Sobre el listado</h3>
+                <p>La tabla contiene tres registros escritos en el HTML como parte del prototipo.</p>
+                <p>Puedes practicar el ingreso de datos en <a href="reportar.html">Reportar rescate</a>.</p>
+            </article>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2026 Huella Segura - Proyecto académico de la Universidad Técnica de Manabí.</p>
+        <p><a href="version-css/index.html">Ver versión con CSS</a></p>
+    </footer>
 </body>
 </html>

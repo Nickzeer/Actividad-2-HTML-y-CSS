@@ -1,38 +1,38 @@
 [
   {
     "archivo": "index.html",
-    "enlacesYRecursosCorrectos": 20,
-    "sinCSS": true,
-    "sha256": "b917649cbf6702ff27fec6266579ed1330baeca40b7c806b9fbf95e8eb11378d"
+    "enlacesCorrectos": 11,
+    "sinJavaScript": true,
+    "sha256": "d417d50f526c9e2f8d2a50a449a388d80bdec3e009cd5106af7723b42f71823e"
   },
   {
     "archivo": "reportar.html",
-    "enlacesYRecursosCorrectos": 15,
-    "sinCSS": true,
-    "sha256": "eee060372cc7cd2fa373c195789ae1151e2e14b6c73f6452cb1eb9524ad80d67"
+    "enlacesCorrectos": 10,
+    "sinJavaScript": true,
+    "sha256": "850f2de531ffcf530a7dd18205048750673006a1a510fb016ccc6012aeb381a1"
   },
   {
     "archivo": "rescates.html",
-    "enlacesYRecursosCorrectos": 14,
-    "sinCSS": true,
-    "sha256": "59690c74c2e641357a5d8b6e870aed3007765e415129ccdf128d49175d71b13d"
+    "enlacesCorrectos": 9,
+    "sinJavaScript": true,
+    "sha256": "b861fc76f49c83ae4ff5ba16c22673e951fcd342c82768bdfda938db86252db1"
   },
   {
     "archivo": "version-css/index.html",
-    "enlacesYRecursosCorrectos": 21,
-    "sinCSS": null,
-    "sha256": "1bc15208bcf89b091621bc509ba714c57ab46a7c339e2264b24a9143824bea15"
+    "enlacesCorrectos": 12,
+    "sinJavaScript": true,
+    "sha256": "54939ee5d94b5d3777233ab4c2bc6ca499df4afc135a366e242967e65e62d655"
   },
   {
     "archivo": "version-css/reportar.html",
-    "enlacesYRecursosCorrectos": 16,
-    "sinCSS": null,
-    "sha256": "3af7e5511ae7668248e13204cc03541bcea90e44a28b2bd66821f2e01a691749"
+    "enlacesCorrectos": 11,
+    "sinJavaScript": true,
+    "sha256": "4162b455f65ba16e4bbfac776883e6caae6dafbf630fb4bdebfc9fdd446e8ffd"
   },
   {
     "archivo": "version-css/rescates.html",
-    "enlacesYRecursosCorrectos": 15,
-    "sinCSS": null,
-    "sha256": "42f8d69a78548083087b80cde36c8043702abaa50d50d2ac05e7005cc3f8ac48"
+    "enlacesCorrectos": 10,
+    "sinJavaScript": true,
+    "sha256": "491f78e1dc6154daf819c27b93e814a5b90f571439ea6c629b2a6dcdec81b1b6"
   }
 ]

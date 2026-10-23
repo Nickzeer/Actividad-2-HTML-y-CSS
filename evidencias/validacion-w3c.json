@@ -3,8 +3,7 @@
     "archivo": "index.html",
     "http": 200,
     "version": "26.10.18",
-    "messages": [],
-    "language": "es"
+    "messages": []
   },
   {
     "archivo": "reportar.html",
@@ -22,8 +21,7 @@
     "archivo": "version-css/index.html",
     "http": 200,
     "version": "26.10.18",
-    "messages": [],
-    "language": "es"
+    "messages": []
   },
   {
     "archivo": "version-css/reportar.html",

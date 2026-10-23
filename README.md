@@ -2,57 +2,36 @@
 
 Este es un prototipo académico para Desarrollo de Sistemas Informáticos, Unidad 2, Universidad Técnica de Manabí. El refugio, las direcciones de contacto y los tres casos iniciales son ficticios. En la Unidad 1 como no se proporciono un boceto o imagen de como se veria realice la pagina basandome en otras y ayudandome un poco con la IA; esta entrega propone una estructura original para el sistema de rescate obviamente solo para la actividad pero se puede usar en un futuro para desarrollar la pagina verdadera.
 
-## Dos versiones que pedia el profesor
+## Versiones
 
-- **Entrega principal, sin CSS:** index.html, reportar.html y rescates.html en la raíz. No contienen estilos en línea ni cargan hojas de estilo.
-- **Complemento con CSS:** version-css/ contiene las mismas tres páginas con assets/css/estilos.css. Responde a la parte final de la consigna, que solicita colores, tipografía, distribución y evidencia de CSS.
-- Ambas versiones comparten imágenes SVG locales y assets/js/rescate.js. El JavaScript hace funcional el prototipo; la estructura y los ejemplos también son visibles sin él.
+- Los tres HTML de la raíz corresponden al prototipo sin estilos.
+- La carpeta version-css contiene las mismas páginas con una hoja de CSS sencilla.
+- Solo se utiliza HTML y CSS. No hay JavaScript, bibliotecas ni instalación de paquetes.
 
-## Para que pueda probar y abrir el docente
+## Cómo abrir la página
 
-Puede abrirse index.html directamente. Para que las dos versiones compartan sus registros de forma consistente, se recomienda servir la carpeta por HTTP. Con Python instalado, desde esta carpeta:
+Descargue el proyecto y abra index.html. Para ver los estilos, abra version-css/index.html. Los enlaces del menú permiten cambiar de página o ir a las secciones de Inicio.
 
-    python -m http.server 8000
+El formulario incluye texto, categorías, urgencia y descripción. El navegador comprueba los campos obligatorios. Al pulsar Enviar reporte se abre el listado de ejemplo; los datos no se guardan ni se añaden a la tabla.
 
-Abra http://localhost:8000/ para la entrega sin CSS y http://localhost:8000/version-css/ para el complemento visual. No requiere instalación de paquetes ni conexión a internet.
-
-1. Abra Reportar rescate y complete todos los campos.
-2. Seleccione una categoría y una urgencia, y escriba una descripción de 20 a 1000 caracteres.
-3. Pulse Registrar rescate y siga el enlace de confirmación.
-4. Compruebe el nuevo registro y abra su ficha.
-5. Use búsqueda, filtros y Restablecer.
-6. Vuelva a Inicio: el resumen y los últimos rescates reflejan el registro.
-
-Los datos se guardan en localStorage de este navegador y origen; no se sincronizan entre dispositivos ni se envían a un refugio. Los filtros se actualizan al escribir o seleccionar. El formulario valida campos obligatorios, longitud y fecha no futura.
-
-## Organización
+## Archivos
 
     index.html
     reportar.html
     rescates.html
-    assets/
-      img/logo.svg
-      img/refugio.svg
-      js/rescate.js
-      css/estilos.css
-    version-css/
-      index.html
-      reportar.html
-      rescates.html
+    assets/css/estilos.css
+    assets/img/logo.svg
+    assets/img/refugio.svg
+    version-css/index.html
+    version-css/reportar.html
+    version-css/rescates.html
     evidencias/
-    README.md
-    VALIDACION.md
-    GITFLOW.md
 
-## Requisitos que pedia la tarea
+## Lo que incluye la actividad
 
-- Navegación común con Inicio, Reportar rescate, Rescates, Nosotros, Servicios y Contacto.
-- header, nav, main, section, article y footer según su función.
-- Un h1 por página, idioma español, títulos únicos y enlaces para saltar al contenido.
-- Formulario con label, fieldset, legend, input de texto, select, radio, textarea y botones nativos.
-- Tabla con caption y encabezados scope; fichas en dialog accesible.
-- Imágenes SVG propias con texto alternativo; sin recursos remotos ni fuentes externas.
-- Versión CSS adaptable a móvil con foco de teclado visible y prioridades identificadas por texto y color.
+- Encabezado, navegación, contenido principal, secciones, artículos y pie de página.
+- Formulario con etiquetas para sus campos.
+- Tabla con tres animales de ejemplo.
+- Estilos básicos de letra, márgenes, fondo y bordes.
 
-Si desea comprobarlo el docentente tiene que revisar VALIDACION.md para los resultados de validación y GITFLOW.md para la evidencia del flujo de ramas.
-
+Las capturas están en evidencias. Los resultados de W3C están documentados en VALIDACION.md. El flujo de ramas está descrito en GITFLOW.md.
