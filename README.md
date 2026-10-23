@@ -1,6 +1,6 @@
 # Nombre de la pagina: Huella Segura · Sistema de rescate animal
 
-Este es un prototipo académico para Desarrollo de Sistemas Informáticos, Unidad 2, Universidad Técnica de Manabí. El refugio, las direcciones de contacto y los tres casos iniciales son ficticios. En la Unidad 1 como no se proporciono un boceto o imagen de como se veria realice la pagina basandome en otras y ayudandome un poco con la IA; esta entrega propone una estructura original para el sistema de rescate obviamente solo para la actividad pero se puede usar en un futuro para desarrollar la pagina verdadera.
+Este es un prototipo académico para Desarrollo de Sistemas Informáticos, Unidad 2, Universidad Técnica de Manabí. El refugio, las direcciones de contacto y los tres casos iniciales son ficticios. En la Unidad 1 como no se proporcionó un boceto o imagen de cómo se vería realice la página basándome en otras y ayudándome un poco con la IA; esta entrega propone una estructura original para el sistema de rescate obviamente solo para la actividad, pero se puede usar en un futuro para desarrollar la página verdadera.
 
 ## Versiones
 
