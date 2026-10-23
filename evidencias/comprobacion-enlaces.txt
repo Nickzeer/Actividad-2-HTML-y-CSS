@@ -1,0 +1,12 @@
+COMPROBACIÓN DE NAVEGACIÓN Y RECURSOS
+
+Se revisaron las rutas locales, los enlaces del menú, las imágenes y las secciones de destino.
+
+index.html: 11 enlaces y recursos correctos.
+reportar.html: 10 enlaces y recursos correctos.
+rescates.html: 9 enlaces y recursos correctos.
+version-css/index.html: 12 enlaces y recursos correctos.
+version-css/reportar.html: 11 enlaces y recursos correctos.
+version-css/rescates.html: 10 enlaces y recursos correctos.
+
+Todos los enlaces y recursos locales revisados existen.
