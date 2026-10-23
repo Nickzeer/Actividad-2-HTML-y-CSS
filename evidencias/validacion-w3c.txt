@@ -1,0 +1,38 @@
+VALIDACIÓN HTML - W3C
+
+Fecha: 23 de octubre de 2026
+Servicio: Nu HTML Checker del W3C
+Dirección: https://validator.w3.org/nu/
+Versión del comprobador: vnu 26.10.18
+Método: carga de cada archivo en la página del validador.
+
+Archivo: index.html
+Resultado: sin errores ni advertencias.
+Mensaje del servicio: Document checking completed. No errors or warnings to show.
+Captura: 05-w3c-index.jpg
+
+Archivo: reportar.html
+Resultado: sin errores ni advertencias.
+Mensaje del servicio: Document checking completed. No errors or warnings to show.
+Captura: 06-w3c-reportar.jpg
+
+Archivo: rescates.html
+Resultado: sin errores ni advertencias.
+Mensaje del servicio: Document checking completed. No errors or warnings to show.
+Captura: 07-w3c-rescates.jpg
+
+Archivo: version-css/index.html
+Resultado: sin errores ni advertencias.
+Mensaje del servicio: Document checking completed. No errors or warnings to show.
+Captura: 08-w3c-index-css.jpg
+
+Archivo: version-css/reportar.html
+Resultado: sin errores ni advertencias.
+Mensaje del servicio: Document checking completed. No errors or warnings to show.
+Captura: 09-w3c-reportar-css.jpg
+
+Archivo: version-css/rescates.html
+Resultado: sin errores ni advertencias.
+Mensaje del servicio: Document checking completed. No errors or warnings to show.
+Captura: 10-w3c-rescates-css.jpg
+
