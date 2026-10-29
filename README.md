@@ -19,7 +19,7 @@ El formulario incluye texto, categorías, urgencia y descripción. El navegador 
     index.html
     reportar.html
     rescates.html
-    assets/css/estilos.css
+    version-css/styles.css
     assets/img/logo.svg
     assets/img/refugio.svg
     version-css/index.html
